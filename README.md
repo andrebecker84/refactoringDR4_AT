@@ -32,6 +32,7 @@
 - [Como Executar](#como-executar)
 - [Testes](#testes)
 - [Decisões Técnicas por Questão](#decisões-técnicas-por-questão)
+- [Relatório Técnico](#relatório-técnico)
 - [Referências](#referências)
 
 ---
@@ -195,6 +196,12 @@ Relatório JaCoCo gerado em `target/site/jacoco/index.html`.
 - O campo `String type` não impedia instâncias com `type = "WORD"` de entrar em `print()` e cair no `else` silencioso.
 - A hierarquia abstrata elimina esse risco: só existem instâncias de subclasses concretas.
 - O `DocumentApp.main()` demonstra que três chamadas a `print()` produzem três comportamentos distintos sem um único `if`.
+
+---
+
+## Relatório Técnico
+
+A análise completa questão a questão — código antes/depois, técnicas aplicadas, princípios justificados e evidências de execução — está em [`doc/AT_RELATORIO.md`](doc/AT_RELATORIO.md).
 
 ---
 
