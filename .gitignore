@@ -1,0 +1,22 @@
+# Build
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.DS_Store
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Projeto — arquivos internos não publicados
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+doc/ENUNCIADO_AT.md
